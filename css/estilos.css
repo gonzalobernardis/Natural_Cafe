@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 60px;
+    margin: 5px;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+nav ul .login {
+    border-left: 2px solid #0c0604;
+    padding-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #EB5E28;
+    margin-left: 40px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #FEFFFE;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 20px 200px;
+    color: #FEFFFE;
+}
+
+.imagenPrincipal {
+    height: 100%;
+}
+
+.bienvenida {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-color: #0c0604;
+    margin: 20px 20px;
+}
+
+.tituloImagen {
+    background-color: #EB5E28;
+    font-family: 'Merriweather', serif;
+}
+
+.textoImagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #FEFFFE;
+    height: 400px;
+    font-family: 'Inter', sans-serif;
+}
+
+.textoImagen .email {
+    width: 40%;
+    background-color: #0c0604;
+    border: none;
+    border-bottom: 1px solid #EB5E28;
+}
+
+.textoImagen .botonEnviar {
+    width: 100px;
+    background-color: #EB5E28;
+}
+
+.textoImagen p {
+    margin-left: 15px;
+}
+
+.naturalCafe {
+    background-color: #EB5E28;
+}
+
+.chatPrincipal {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 30px;
+}
+
+.negro {
+    color: #0c0604;
+}
+
+.containerSeccion h4 {
+    margin: 20px;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.containerSeccion h3 {
+    text-align: center;
+    margin: 0 200px;
+    font-family: 'Merriweather', serif;
+    background-color: #0c0604;
+    color: #FEFFFE;
+}
+
+.producto {
+    width: 15%;
+    margin: 20px 40px;
+}
+
+.containerProductoUno, .containerProductoDos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.descripcionProducto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.descripcionProducto h4 {
+    background-color: #EB5E28;
+    margin: 0 200px;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #0c0604;
+}
+
+.linksAlternativosFooter ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.tituloPrecios {
+    background-color: #0c0604;
+    margin: 20px 500px
+}
+
+.containerFlexProductos {
+    display: flex;
+    height: 250px;
+    margin: 10px 40px;
+}
+
+.containerFlexProductos p {
+    font-family: 'Inter', sans-serif;
+}
+
+.producto1Precios, .producto2Precios, .producto3Precios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.producto1Precios img {
+    width: 30%;
+    border-radius: 20%;
+}
+
+.producto2Precios img {
+    width: 30%;
+    border-radius: 20%;
+}
+
+.producto3Precios img {
+    width: 50%;
+    border-radius: 20%;
+}
+
+.containerClientes {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-evenly;
+    margin: 0 15px;
+}
+
+.clienteUno, .clienteDos, .clienteTres {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #EB5E28;
+}
+
+.clienteTres img {
+    width: 8%;
+}
+
+.clienteDos img {
+    width: 9%;
+}
+
+.clienteUno img {
+    width: 10%;
+}
+
+.tituloContacto {
+    background-color: #0c0604;
+    margin: 20px 450px;
+}
+
+.containerFormularios {
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+}
+
+.containerFlexContactoClientes, .containerFlexContactoEmpresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EB5E28;
+    width: 300px;
+
+}
+
+.formularioFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloSucursales {
+    background-color: #0c0604;
+    margin: 20px 500px;
+}
+
+.containerFlexSucursales {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.containerSucursales1, .containerSucursales2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.sucursales {
+    text-align: center;
+    background-color: #EB5E28;
+    height: 40%;
+    width: 100%;
+}
