@@ -11,38 +11,41 @@ nav {
     align-items: center;
     background-color: #f1f1f1;
     height: 60px;
-    margin: 5px;
+    margin: 5px 20px;
     justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    width: 80%;
+    width: 85%;
     justify-content: space-evenly;
 }
 
 nav ul li a {
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
 }
 
 nav ul .login {
     border-left: 2px solid #0c0604;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 h1 {
     text-align: center;
     font-family: 'Merriweather', serif;
-    background-color: #EB5E28;
-    margin-left: 40px;
+    margin: 0 auto;
 }
 
 h1 a {
     text-decoration: none;
-    color: #FEFFFE;
+    color: #0c0604;
 }
 
 h2 {
