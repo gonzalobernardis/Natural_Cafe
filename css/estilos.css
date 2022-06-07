@@ -45,7 +45,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     width: 50%;
-    margin-top: 1.7%
+    margin-top: 3.2vh;
 }
 
 nav ul .login  {
