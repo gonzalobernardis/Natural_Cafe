@@ -143,7 +143,7 @@ h2 {
 
 .producto {
     width: 15%;
-    margin: 20px 40px;
+    margin: 20px 0px;
 }
 
 .containerProductoUno, .containerProductoDos {
@@ -154,12 +154,12 @@ h2 {
 .descripcionProducto {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .descripcionProducto h4 {
     background-color: #EB5E28;
-    margin: 0 200px;
+    
 }
 
 .footer {
@@ -239,20 +239,13 @@ h2 {
 .clienteUno, .clienteDos, .clienteTres {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     background-color: #EB5E28;
 }
 
-.clienteTres img {
-    width: 8%;
-}
-
-.clienteDos img {
-    width: 9%;
-}
-
-.clienteUno img {
+.clienteTres img, .clienteDos img, .clienteUno img {
     width: 10%;
+    margin-right: 20%;
 }
 
 .tituloContacto {
@@ -305,4 +298,12 @@ h2 {
     background-color: #EB5E28;
     height: 40%;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
 }
