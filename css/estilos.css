@@ -14,7 +14,7 @@ nav {
     display: flex;
     align-items: center;
     background-color: #f1f1f1;
-    height: 60px;
+    height: 10%;
     margin: 10px 20px;
     justify-content: space-around;
     position: fixed;
@@ -148,7 +148,7 @@ h2 {
 
 .containerProductoUno, .containerProductoDos {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .descripcionProducto {
@@ -172,7 +172,7 @@ h2 {
 .footer ul {
     display: flex;
     align-items: center;
-    width: 400px;
+    width: 30vw;
     justify-content: space-between;
 }
 
@@ -301,6 +301,75 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    nav ul li a {
+        font-size: 0.8em;
+    }
+
+    nav ul {
+        margin-top: 2vw;
+    }
+
+    nav h1 {
+        width: 20vw;
+    }
+
+    .bienvenida {
+        width: 95%;
+        height: 400px;
+    }
+
+    .textoImagen p {
+        width: 50vw;
+        font-size: 0.7em;
+    }
+
+    .textoImagen {
+        width: 65vw;
+    }
+
+    nav, .footer {
+        width: 95vw;
+    }
+
+    .containerSeccion h3 {
+        width: 80vw;
+        margin: 0 10%;
+    }
+
+    .containerProductos {
+        width: 95vw;
+        margin: 0 2%;
+    }
+
+    .containerProductoUno {
+        width: 100vw;
+    }
+
+    .containerProductoDos {
+        width: 90vw;
+    }
+
+    .containerProductoUno .descripcionProducto {
+        align-items: center;
+        margin: 0 10%;
+    }
+
+    .flechaDerecha {
+        margin-left: 3%;
+    }
+
+    .footer .redesSociales {
+        width: 50vw;
+    }
+
+    .footer {
+        margin-left: 2vw;
+    }
+
+    .chatPrincipal {
+        right: 3vw;
+        bottom: 2vw;
+    }
 
 }
 
